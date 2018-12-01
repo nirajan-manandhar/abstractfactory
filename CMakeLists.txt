@@ -3,4 +3,4 @@ project(Lab09)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab09 main.cpp)
+add_executable(Lab09 main.cpp maze_factory.cpp maze_factory.hpp maze.hpp wall.hpp room.hpp door.hpp)
